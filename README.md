@@ -1,25 +1,41 @@
 [![CI](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml)
-## Template for Python projects 
+## Week 11: Data Pipeline with Databricks
+- Goals :
+1. Create a data pipeline using Databricks
+2. Include at least one data source and one data sink
 
-1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
+## Jupyter Notebook
+- [Data Pipeline with Databricks](Songs Notebook.ipynb)
 
-Things included are:
+## Steps
+### Ingest the raw data
 
-* `Makefile`
+![](Results/raw_data.png)
 
-* `Pytest`
+### Prepare the raw data
 
-* `pandas`
+![](Results/prepared_data.png)
 
-* `Pylint`
+### Query the transformed data
 
-* `Dockerfile`
+> Which artists released the most songs each year?
 
-* `GitHub copilot`
+![](Results/sql_query1.png)
 
-* `jupyter` and `ipython` 
+> Find songs for your DJ list
 
-* A base set of libraries for devops and web
+![](Results/sql_query2.png)
 
-* `githubactions` 
+### Create a Databricks job to run the pipeline
 
+![](Results/pipeline.png)
+
+
+### Result
+
+![](Results/result.png)
+
+## Reference
+
+1. https://github.com/nogibjj/python-template
+2. https://docs.databricks.com/en/getting-started/data-pipeline-get-started.html
