@@ -5,7 +5,7 @@
 2. Include at least one data source and one data sink
 
 ## Jupyter Notebook
-- [Data Pipeline with Databricks](Songs Notebook.ipynb)
+- [Notebook for Databricks pipeline]()
 
 ## Steps
 ### Ingest the raw data
